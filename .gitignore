@@ -1,0 +1,32 @@
+frontend/node_modules/
+backend/node_modules/
+node_modules/
+
+frontend/.env
+backend/.env
+
+
+# Dependencies
+node_modules/
+
+# Build Output
+# Adjust these paths if your build folder names are different (e.g., 'dist')
+frontend/build/
+backend/build/
+
+# Environment Variables and Secrets (CRITICAL)
+.env
+.env.local
+.env.*.local
+*.config.local.*
+
+# Logs and Debug
+*.log
+npm-debug.log*
+
+# IDE and Operating System Files
+.vscode/
+.DS_Store
+
+# Package Lock File (Optional - Read Note Below)
+# package-lock.json

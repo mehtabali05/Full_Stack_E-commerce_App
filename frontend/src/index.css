@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "tailwindcss";
+
+
+
+*{
+  font-family: "Outfit", sans-serif;
+
+}
+
+html,body{
+  margin:0;
+  padding: 0;
+  max-width:100%;
+  /* overflow-x: hidden; */
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  overflow-x: clip;
+}
+
+@theme {
+  --color-primary: #ff6347;
+}
+
+nav{
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: white;
+}
+
+.pnf{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 65vh;
+}
+
+.pnf-title{
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.pnf-heading{
+  font-weight: normal;
+}
+
+.pnf-btn{
+ 
+  border: 2px solid black;
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+
+.pnf-btn:hover{
+   background-color: black;
+  color: white;
+}
+
+@media (max-width: 820px) {
+
+  .admin-Layout{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px;
+  }
+
+  .admin-Layout img{
+    height: 1.7rem;
+  }
+
+  .admin-Layout div{
+    display: flex;
+    gap: 1rem;
+  }
+
+
+  .adminSidebar img{
+    height: 1.5rem;
+    width: 1.5rem;
+    margin: 0.7rem;
+    /* padding: 5px */
+  }
+
+
+  .orderDetails1{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .adminProductLists th,td{
+    padding: 4px;
+  }
+
+  .hero-girl {
+    width: 70%;
+  }
+
+  .hero-container h1 {
+    font-size: 28px;
+  }
+
+  .hero-container button{
+    padding: 2px 8px;
+    font-size: 14px;
+  }
+
+  .hero-book {
+    margin-top: 10px;
+    width: 45%;
+    margin-right: 90px;
+  }
+
+  .welcome-heading{
+    font-size: 28px;
+  }
+
+  .search{
+    font-size: 0.5rem;
+  }
+
+  .search input{
+    padding: 10px 14px;
+    font-size: 14px;
+  }
+
+  .search  button{
+    padding: 5px 24px;
+    font-size: 14px;
+  }
+
+  .category h1{
+    font-size: 28px;
+  }
+  .category-items{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    gap: 2rem;
+    justify-content: space-evenly;
+  }
+
+  .new-arrival{
+    display: flex;
+  }
+
+  .new-arrival h1{
+    font-size: 28px;
+  }
+
+  .book-card button{
+    padding: 7px 14px;
+    font-size: 14px;
+  }
+
+  .book-card{
+    /* margin-left: 5rem; */
+    width: 300px;
+    
+   }
+
+  .book-card h3{
+    font-size: 14px;
+  }
+
+  .book-card .book-image{
+    width: 80%;
+    height: fit-content;
+  }
+
+  .book-card .reviews{
+    display: flex;
+    justify-content: space-between;
+     /* padding-right: 1rem; */
+    margin-right: 3rem;
+  }
+
+  .navbar{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+    position:sticky;
+    top:0;
+    z-index:1000
+  }
+
+  .footer{
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    justify-content: space-evenly !important;
+    /* padding: 0px; */
+  }
+
+  .footer-links{
+    gap: 3rem;
+  }
+
+
+
+}
+
+
